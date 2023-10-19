@@ -22,13 +22,10 @@ alert("Su nota mas baja es" + (notaMasBaja));
 
 function calcularPromedio(notas) {
     let suma = 0;
-    
     for (let i = 0; i < notas.length; i++) {
         suma += notas[i];
     }
-    
     let promedio = suma / notas.length;
-    
     if (promedio >= 7) {
         alert("Su promedio esta aprobado con nota " + promedio);
     } else if (promedio < 7) {
