@@ -36,3 +36,21 @@ function calcularPromedio(notas) {
 
 calcularPromedio(notas);
 
+function Persona(nombre , notaMatematicas, notaSociales, notaNaturales){
+    this.nombre = nombre;
+    this.notaMatematicas = notaMatematicas;
+    this.notaSociales = notaSociales;
+    this.notaNaturales = notaNaturales;
+
+    this.mostrarDatos = function() {
+        console.log("Nombre: " + this.nombre +
+                    "Nota matematica: " + this.notaMatematicas +
+                    "Nota Sociales: " + this.notaSociales +
+                    "Nota Naturales: " + this.notaNaturales
+        );  
+    }
+}
+
+const Persona1 = new Persona("juan" , 7 , 5 , 6);
+
+Persona1.mostrarDatos();
