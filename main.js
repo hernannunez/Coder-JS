@@ -1,16 +1,16 @@
-let Matematica = (prompt("Ingrese su nota de matematica"));
-let Sociales = (prompt("Ingrese su nota de sociales"));
-let Naturales = prompt("Ingrese su nota de naturales")
+let matematica = (prompt("Ingrese su nota de matematica"));
+let sociales = (prompt("Ingrese su nota de sociales"));
+let naturales = prompt("Ingrese su nota de naturales")
 
-Matematica = parseInt(Matematica);
-Sociales = parseInt(Sociales);
-Naturales = parseInt(Naturales);
+matematica = parseInt(matematica);
+sociales = parseInt(sociales);
+naturales = parseInt(naturales);
 
 const notas = [];
 
-notas.push(Matematica);
-notas.push(Sociales);
-notas.push(Naturales);
+notas.push(matematica);
+notas.push(sociales);
+notas.push(naturales);
 
 alert("Su nota de matematica es " + notas[0]);
 alert("Su nota de Sociales es " + notas[1]);
